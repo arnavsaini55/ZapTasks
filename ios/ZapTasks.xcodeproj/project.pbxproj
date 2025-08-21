@@ -11,6 +11,36 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		94CB6930E95648ABBC271E08 /* MozillaHeadline-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 261FEE3BEBA14DF4BD187663 /* MozillaHeadline-Bold.ttf */; };
+		999414CF27614BB184FD8511 /* MozillaHeadline-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 396532FCD8ED4FD9987CCF71 /* MozillaHeadline-ExtraLight.ttf */; };
+		B4C77DA917BD434D8B6A90A1 /* MozillaHeadline-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 778BDA97B5804038A626C2A6 /* MozillaHeadline-Light.ttf */; };
+		99438DF0147E442C9F6A629A /* MozillaHeadline-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA150751BF8F4801870207B9 /* MozillaHeadline-Medium.ttf */; };
+		1E082AA9F3B142FE85763E66 /* MozillaHeadline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4170F1010E46499192C3B299 /* MozillaHeadline-Regular.ttf */; };
+		696959B4D92F45CE81F0782F /* MozillaHeadline-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0954997582734052A3434815 /* MozillaHeadline-SemiBold.ttf */; };
+		C3A582B3692D454185E19FC8 /* MozillaHeadline_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC0097AE00A041AA86B6DD90 /* MozillaHeadline_Condensed-Bold.ttf */; };
+		4035C92319DA419C9E3CA575 /* MozillaHeadline_Condensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8BE2CB62C104B20B4E1BB9A /* MozillaHeadline_Condensed-ExtraLight.ttf */; };
+		3C7A243FDBF845828CB59C0C /* MozillaHeadline_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD4FFDE16C7E4E24825C105B /* MozillaHeadline_Condensed-Light.ttf */; };
+		6E4132834FEC44309511E0AB /* MozillaHeadline_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 789EAAAF41F04EACB1C83797 /* MozillaHeadline_Condensed-Medium.ttf */; };
+		ED88FFB6CB8443B8A7E12965 /* MozillaHeadline_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 208E1C71F7DE4D50A2DDD3C0 /* MozillaHeadline_Condensed-Regular.ttf */; };
+		D42B6467A61B420EBEC48A08 /* MozillaHeadline_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8981C4AF13E149AC9F0F47C3 /* MozillaHeadline_Condensed-SemiBold.ttf */; };
+		2D04E0EDD0854E399A9748B1 /* MozillaHeadline_Expanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F519E519F4B4449AA10A87F0 /* MozillaHeadline_Expanded-Bold.ttf */; };
+		C7F6CEC9D2A9422DAB281F36 /* MozillaHeadline_Expanded-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7352ADC8BB484501A02E3ADD /* MozillaHeadline_Expanded-ExtraLight.ttf */; };
+		1455448A5C3242A2B97D9751 /* MozillaHeadline_Expanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14D5AB193578495F8F6E46E5 /* MozillaHeadline_Expanded-Light.ttf */; };
+		F3024F59C3DC4B7991CD852F /* MozillaHeadline_Expanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E79F3676C06C4689A13D99E0 /* MozillaHeadline_Expanded-Medium.ttf */; };
+		A448F016442941D58DDB59FB /* MozillaHeadline_Expanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07B688AFFD9C486289444CB0 /* MozillaHeadline_Expanded-Regular.ttf */; };
+		2D415B178D984D8392DA203F /* MozillaHeadline_Expanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AC56DD9B29943E0B7BE0023 /* MozillaHeadline_Expanded-SemiBold.ttf */; };
+		E93C0296335F427C86AD1501 /* MozillaHeadline_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EA742862C734381BF4BBC67 /* MozillaHeadline_SemiCondensed-Bold.ttf */; };
+		71D78A8689AE40CC8F25BCF1 /* MozillaHeadline_SemiCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36DC744A647C40318B8303EE /* MozillaHeadline_SemiCondensed-ExtraLight.ttf */; };
+		D6EB7627BB8B411CBF926FF9 /* MozillaHeadline_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 549F1F23472A47118E3B6C75 /* MozillaHeadline_SemiCondensed-Light.ttf */; };
+		F46D41A462CF472CAF7718A4 /* MozillaHeadline_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BFA71AA3C5343A9A1C8A477 /* MozillaHeadline_SemiCondensed-Medium.ttf */; };
+		0679EDE73C944665A6BD5713 /* MozillaHeadline_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC4CDAF0B1C6484B907618DD /* MozillaHeadline_SemiCondensed-Regular.ttf */; };
+		428670A6D0BD4E3D850F32BF /* MozillaHeadline_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B44FFC8704D84926BD7508E6 /* MozillaHeadline_SemiCondensed-SemiBold.ttf */; };
+		214BA5C5343046F79ABC2A11 /* MozillaHeadline_SemiExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90CDBEB1BBED42FDBD04FB8E /* MozillaHeadline_SemiExpanded-Bold.ttf */; };
+		1E50730C70F94E1CB329A417 /* MozillaHeadline_SemiExpanded-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9E3136D852447449B7A05AF /* MozillaHeadline_SemiExpanded-ExtraLight.ttf */; };
+		9A05F84F3CCE47AA8E4C1838 /* MozillaHeadline_SemiExpanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6035E0B900D846A2B81B782E /* MozillaHeadline_SemiExpanded-Light.ttf */; };
+		D3D222AF9CEF4CBA8D76BE32 /* MozillaHeadline_SemiExpanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BE68D3E58E5484AA2EAF335 /* MozillaHeadline_SemiExpanded-Medium.ttf */; };
+		A02E21CEE47740178EB3A25E /* MozillaHeadline_SemiExpanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0245BC4185664B61BD25A6B3 /* MozillaHeadline_SemiExpanded-Regular.ttf */; };
+		A60FBAEB293B4FB98F6C75DF /* MozillaHeadline_SemiExpanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8811346FF3B94E049BA2EAE8 /* MozillaHeadline_SemiExpanded-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +54,36 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ZapTasks/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ZapTasks/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		261FEE3BEBA14DF4BD187663 /* MozillaHeadline-Bold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-Bold.ttf"; path = "../Assest/Fonts/MozillaHeadline-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		396532FCD8ED4FD9987CCF71 /* MozillaHeadline-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-ExtraLight.ttf"; path = "../Assest/Fonts/MozillaHeadline-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		778BDA97B5804038A626C2A6 /* MozillaHeadline-Light.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-Light.ttf"; path = "../Assest/Fonts/MozillaHeadline-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA150751BF8F4801870207B9 /* MozillaHeadline-Medium.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-Medium.ttf"; path = "../Assest/Fonts/MozillaHeadline-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4170F1010E46499192C3B299 /* MozillaHeadline-Regular.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-Regular.ttf"; path = "../Assest/Fonts/MozillaHeadline-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0954997582734052A3434815 /* MozillaHeadline-SemiBold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline-SemiBold.ttf"; path = "../Assest/Fonts/MozillaHeadline-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC0097AE00A041AA86B6DD90 /* MozillaHeadline_Condensed-Bold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-Bold.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8BE2CB62C104B20B4E1BB9A /* MozillaHeadline_Condensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-ExtraLight.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD4FFDE16C7E4E24825C105B /* MozillaHeadline_Condensed-Light.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-Light.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		789EAAAF41F04EACB1C83797 /* MozillaHeadline_Condensed-Medium.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-Medium.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		208E1C71F7DE4D50A2DDD3C0 /* MozillaHeadline_Condensed-Regular.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-Regular.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8981C4AF13E149AC9F0F47C3 /* MozillaHeadline_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Condensed-SemiBold.ttf"; path = "../Assest/Fonts/MozillaHeadline_Condensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F519E519F4B4449AA10A87F0 /* MozillaHeadline_Expanded-Bold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-Bold.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7352ADC8BB484501A02E3ADD /* MozillaHeadline_Expanded-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-ExtraLight.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14D5AB193578495F8F6E46E5 /* MozillaHeadline_Expanded-Light.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-Light.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E79F3676C06C4689A13D99E0 /* MozillaHeadline_Expanded-Medium.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-Medium.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07B688AFFD9C486289444CB0 /* MozillaHeadline_Expanded-Regular.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-Regular.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AC56DD9B29943E0B7BE0023 /* MozillaHeadline_Expanded-SemiBold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_Expanded-SemiBold.ttf"; path = "../Assest/Fonts/MozillaHeadline_Expanded-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EA742862C734381BF4BBC67 /* MozillaHeadline_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-Bold.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36DC744A647C40318B8303EE /* MozillaHeadline_SemiCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-ExtraLight.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		549F1F23472A47118E3B6C75 /* MozillaHeadline_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-Light.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BFA71AA3C5343A9A1C8A477 /* MozillaHeadline_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-Medium.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC4CDAF0B1C6484B907618DD /* MozillaHeadline_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-Regular.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B44FFC8704D84926BD7508E6 /* MozillaHeadline_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiCondensed-SemiBold.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90CDBEB1BBED42FDBD04FB8E /* MozillaHeadline_SemiExpanded-Bold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-Bold.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9E3136D852447449B7A05AF /* MozillaHeadline_SemiExpanded-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-ExtraLight.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6035E0B900D846A2B81B782E /* MozillaHeadline_SemiExpanded-Light.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-Light.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BE68D3E58E5484AA2EAF335 /* MozillaHeadline_SemiExpanded-Medium.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-Medium.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0245BC4185664B61BD25A6B3 /* MozillaHeadline_SemiExpanded-Regular.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-Regular.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8811346FF3B94E049BA2EAE8 /* MozillaHeadline_SemiExpanded-SemiBold.ttf */ = {isa = PBXFileReference; name = "MozillaHeadline_SemiExpanded-SemiBold.ttf"; path = "../Assest/Fonts/MozillaHeadline_SemiExpanded-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				51E216ED023E4340A476AEA2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +157,44 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		51E216ED023E4340A476AEA2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				261FEE3BEBA14DF4BD187663 /* MozillaHeadline-Bold.ttf */,
+				396532FCD8ED4FD9987CCF71 /* MozillaHeadline-ExtraLight.ttf */,
+				778BDA97B5804038A626C2A6 /* MozillaHeadline-Light.ttf */,
+				CA150751BF8F4801870207B9 /* MozillaHeadline-Medium.ttf */,
+				4170F1010E46499192C3B299 /* MozillaHeadline-Regular.ttf */,
+				0954997582734052A3434815 /* MozillaHeadline-SemiBold.ttf */,
+				FC0097AE00A041AA86B6DD90 /* MozillaHeadline_Condensed-Bold.ttf */,
+				D8BE2CB62C104B20B4E1BB9A /* MozillaHeadline_Condensed-ExtraLight.ttf */,
+				CD4FFDE16C7E4E24825C105B /* MozillaHeadline_Condensed-Light.ttf */,
+				789EAAAF41F04EACB1C83797 /* MozillaHeadline_Condensed-Medium.ttf */,
+				208E1C71F7DE4D50A2DDD3C0 /* MozillaHeadline_Condensed-Regular.ttf */,
+				8981C4AF13E149AC9F0F47C3 /* MozillaHeadline_Condensed-SemiBold.ttf */,
+				F519E519F4B4449AA10A87F0 /* MozillaHeadline_Expanded-Bold.ttf */,
+				7352ADC8BB484501A02E3ADD /* MozillaHeadline_Expanded-ExtraLight.ttf */,
+				14D5AB193578495F8F6E46E5 /* MozillaHeadline_Expanded-Light.ttf */,
+				E79F3676C06C4689A13D99E0 /* MozillaHeadline_Expanded-Medium.ttf */,
+				07B688AFFD9C486289444CB0 /* MozillaHeadline_Expanded-Regular.ttf */,
+				4AC56DD9B29943E0B7BE0023 /* MozillaHeadline_Expanded-SemiBold.ttf */,
+				0EA742862C734381BF4BBC67 /* MozillaHeadline_SemiCondensed-Bold.ttf */,
+				36DC744A647C40318B8303EE /* MozillaHeadline_SemiCondensed-ExtraLight.ttf */,
+				549F1F23472A47118E3B6C75 /* MozillaHeadline_SemiCondensed-Light.ttf */,
+				6BFA71AA3C5343A9A1C8A477 /* MozillaHeadline_SemiCondensed-Medium.ttf */,
+				FC4CDAF0B1C6484B907618DD /* MozillaHeadline_SemiCondensed-Regular.ttf */,
+				B44FFC8704D84926BD7508E6 /* MozillaHeadline_SemiCondensed-SemiBold.ttf */,
+				90CDBEB1BBED42FDBD04FB8E /* MozillaHeadline_SemiExpanded-Bold.ttf */,
+				A9E3136D852447449B7A05AF /* MozillaHeadline_SemiExpanded-ExtraLight.ttf */,
+				6035E0B900D846A2B81B782E /* MozillaHeadline_SemiExpanded-Light.ttf */,
+				1BE68D3E58E5484AA2EAF335 /* MozillaHeadline_SemiExpanded-Medium.ttf */,
+				0245BC4185664B61BD25A6B3 /* MozillaHeadline_SemiExpanded-Regular.ttf */,
+				8811346FF3B94E049BA2EAE8 /* MozillaHeadline_SemiExpanded-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -159,6 +258,36 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				94CB6930E95648ABBC271E08 /* MozillaHeadline-Bold.ttf in Resources */,
+				999414CF27614BB184FD8511 /* MozillaHeadline-ExtraLight.ttf in Resources */,
+				B4C77DA917BD434D8B6A90A1 /* MozillaHeadline-Light.ttf in Resources */,
+				99438DF0147E442C9F6A629A /* MozillaHeadline-Medium.ttf in Resources */,
+				1E082AA9F3B142FE85763E66 /* MozillaHeadline-Regular.ttf in Resources */,
+				696959B4D92F45CE81F0782F /* MozillaHeadline-SemiBold.ttf in Resources */,
+				C3A582B3692D454185E19FC8 /* MozillaHeadline_Condensed-Bold.ttf in Resources */,
+				4035C92319DA419C9E3CA575 /* MozillaHeadline_Condensed-ExtraLight.ttf in Resources */,
+				3C7A243FDBF845828CB59C0C /* MozillaHeadline_Condensed-Light.ttf in Resources */,
+				6E4132834FEC44309511E0AB /* MozillaHeadline_Condensed-Medium.ttf in Resources */,
+				ED88FFB6CB8443B8A7E12965 /* MozillaHeadline_Condensed-Regular.ttf in Resources */,
+				D42B6467A61B420EBEC48A08 /* MozillaHeadline_Condensed-SemiBold.ttf in Resources */,
+				2D04E0EDD0854E399A9748B1 /* MozillaHeadline_Expanded-Bold.ttf in Resources */,
+				C7F6CEC9D2A9422DAB281F36 /* MozillaHeadline_Expanded-ExtraLight.ttf in Resources */,
+				1455448A5C3242A2B97D9751 /* MozillaHeadline_Expanded-Light.ttf in Resources */,
+				F3024F59C3DC4B7991CD852F /* MozillaHeadline_Expanded-Medium.ttf in Resources */,
+				A448F016442941D58DDB59FB /* MozillaHeadline_Expanded-Regular.ttf in Resources */,
+				2D415B178D984D8392DA203F /* MozillaHeadline_Expanded-SemiBold.ttf in Resources */,
+				E93C0296335F427C86AD1501 /* MozillaHeadline_SemiCondensed-Bold.ttf in Resources */,
+				71D78A8689AE40CC8F25BCF1 /* MozillaHeadline_SemiCondensed-ExtraLight.ttf in Resources */,
+				D6EB7627BB8B411CBF926FF9 /* MozillaHeadline_SemiCondensed-Light.ttf in Resources */,
+				F46D41A462CF472CAF7718A4 /* MozillaHeadline_SemiCondensed-Medium.ttf in Resources */,
+				0679EDE73C944665A6BD5713 /* MozillaHeadline_SemiCondensed-Regular.ttf in Resources */,
+				428670A6D0BD4E3D850F32BF /* MozillaHeadline_SemiCondensed-SemiBold.ttf in Resources */,
+				214BA5C5343046F79ABC2A11 /* MozillaHeadline_SemiExpanded-Bold.ttf in Resources */,
+				1E50730C70F94E1CB329A417 /* MozillaHeadline_SemiExpanded-ExtraLight.ttf in Resources */,
+				9A05F84F3CCE47AA8E4C1838 /* MozillaHeadline_SemiExpanded-Light.ttf in Resources */,
+				D3D222AF9CEF4CBA8D76BE32 /* MozillaHeadline_SemiExpanded-Medium.ttf in Resources */,
+				A02E21CEE47740178EB3A25E /* MozillaHeadline_SemiExpanded-Regular.ttf in Resources */,
+				A60FBAEB293B4FB98F6C75DF /* MozillaHeadline_SemiExpanded-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

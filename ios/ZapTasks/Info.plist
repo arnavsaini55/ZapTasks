@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,38 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MozillaHeadline-Bold.ttf</string>
+		<string>MozillaHeadline-ExtraLight.ttf</string>
+		<string>MozillaHeadline-Light.ttf</string>
+		<string>MozillaHeadline-Medium.ttf</string>
+		<string>MozillaHeadline-Regular.ttf</string>
+		<string>MozillaHeadline-SemiBold.ttf</string>
+		<string>MozillaHeadline_Condensed-Bold.ttf</string>
+		<string>MozillaHeadline_Condensed-ExtraLight.ttf</string>
+		<string>MozillaHeadline_Condensed-Light.ttf</string>
+		<string>MozillaHeadline_Condensed-Medium.ttf</string>
+		<string>MozillaHeadline_Condensed-Regular.ttf</string>
+		<string>MozillaHeadline_Condensed-SemiBold.ttf</string>
+		<string>MozillaHeadline_Expanded-Bold.ttf</string>
+		<string>MozillaHeadline_Expanded-ExtraLight.ttf</string>
+		<string>MozillaHeadline_Expanded-Light.ttf</string>
+		<string>MozillaHeadline_Expanded-Medium.ttf</string>
+		<string>MozillaHeadline_Expanded-Regular.ttf</string>
+		<string>MozillaHeadline_Expanded-SemiBold.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-Bold.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-ExtraLight.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-Light.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-Medium.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-Regular.ttf</string>
+		<string>MozillaHeadline_SemiCondensed-SemiBold.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-Bold.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-ExtraLight.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-Light.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-Medium.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-Regular.ttf</string>
+		<string>MozillaHeadline_SemiExpanded-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>

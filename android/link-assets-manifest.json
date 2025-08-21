@@ -1,0 +1,125 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "Assest/Fonts/MozillaHeadline-Bold.ttf",
+      "sha1": "201477baf92dbe1cc592c9bde6dd5f7b27d6cbd5"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline-ExtraLight.ttf",
+      "sha1": "27229ea4b389280946ba23162a27743b01777dbf"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline-Light.ttf",
+      "sha1": "c214a5e521b438b0eedaceb26fc890497a0f96f1"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline-Medium.ttf",
+      "sha1": "8954a18671de228c89d3d1f0753462f4cc94a3f0"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline-Regular.ttf",
+      "sha1": "79deb9eb6cb5a69de4ae800d6bc987d1d61b7322"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline-SemiBold.ttf",
+      "sha1": "77173aec0a80a6267ecf20f38b4c98bb9ad5486a"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-Bold.ttf",
+      "sha1": "3d91b0053724bd2c1f47260342b794df5fe1c54f"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-ExtraLight.ttf",
+      "sha1": "b2eeab3edf05e5ce6f0072830b8d7fee000dccae"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-Light.ttf",
+      "sha1": "851527c815b46faef7467918b66c377019e1eee7"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-Medium.ttf",
+      "sha1": "83030b4c780a080d038569f07cfbf19c38eaecad"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-Regular.ttf",
+      "sha1": "5eb526f03549004f9a951c6c88bbea08c40a832d"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Condensed-SemiBold.ttf",
+      "sha1": "ced6f3d2cf6daa3dbde45b881772639d620d34e8"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-Bold.ttf",
+      "sha1": "90b7c7939c6c0eb054e2a85d522f5429e581352a"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-ExtraLight.ttf",
+      "sha1": "3662fb59ab5f897dbb89933400515833407330f6"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-Light.ttf",
+      "sha1": "6271fd596ef0f38ec72b58da02ae09e5716ce627"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-Medium.ttf",
+      "sha1": "36564c8092f1e58328364dc8c35dbbc4f8fe09b6"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-Regular.ttf",
+      "sha1": "e773ba5ee88fd2811451c01ebe8badbfcad63a4b"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_Expanded-SemiBold.ttf",
+      "sha1": "f49dc7483c19494582c66bcded49ad7a8843eba1"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-Bold.ttf",
+      "sha1": "c5749f79eac928b0d4976e3fe2a2d5ded11d98d2"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-ExtraLight.ttf",
+      "sha1": "7b34c562cd217eac7c29e1ba2a399b7d30ce43a8"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-Light.ttf",
+      "sha1": "57f2717cec4f8e98f7b35c9ed5b4af6cb47586ae"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-Medium.ttf",
+      "sha1": "3f3ed60a5c39fa80740784658d4e86129fa2e600"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-Regular.ttf",
+      "sha1": "be6214e9796ed1a0bdabb25063a42fed4458953f"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiCondensed-SemiBold.ttf",
+      "sha1": "717cba6741cf76370870aa11c6df100f129f9073"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-Bold.ttf",
+      "sha1": "74fecdbd6236a50cc34968e9a1d01c60a777536e"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-ExtraLight.ttf",
+      "sha1": "38f64ba7e2a5c9ac1f8ff81e8961a94031e5bae2"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-Light.ttf",
+      "sha1": "c10f8fb63fc0be117dd976b6cb6dd2595edb9aea"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-Medium.ttf",
+      "sha1": "83b6d932f2d705f0d821f2400a47cf4af94695b9"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-Regular.ttf",
+      "sha1": "72ed8a4e7bb5e22238b011e7377a80b74c3c0f79"
+    },
+    {
+      "path": "Assest/Fonts/MozillaHeadline_SemiExpanded-SemiBold.ttf",
+      "sha1": "af06ff4baf52b84ca5d5bf6daca4d17e9e5ad4bf"
+    }
+  ]
+}
