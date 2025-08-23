@@ -1,13 +1,17 @@
 import { createStackNavigator } from "@react-navigation/stack";
+import { Routes } from "./Routes";
+import Home from "../screens/Home/home";
+const Stack = createStackNavigator();
 
-const stack = createStackNavigator()
 const MainNavigation = () => {
-    <stack.Navigator
-    screenOptions={{header: () => null, headerShown: false}}
-   />
-
-   
-}
+    return (
+        <Stack.Navigator
+            screenOptions={{ header: () => null, headerShown: false }}
+        >
+            <Stack.Screen name={Routes.Home} component={Home} />
+        </Stack.Navigator>
+    );
+};
 
 export default MainNavigation;
 
