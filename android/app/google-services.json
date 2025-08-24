@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "118149506929",
+    "project_id": "zaptasks5564",
+    "storage_bucket": "zaptasks5564.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118149506929:android:ee10ca0007945b4bbaf8d0",
+        "android_client_info": {
+          "package_name": "com.zaptasks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPT2zO7AZH-tjEIRkin5aNpi1SBbF4pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
