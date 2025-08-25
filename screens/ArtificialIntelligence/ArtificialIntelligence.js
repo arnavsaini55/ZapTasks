@@ -20,8 +20,6 @@ const ArtificialIntelligence = () => {
       >
         <Text style={{ color: "#fff", fontWeight: "bold" }}>TaskList</Text>
       </TouchableOpacity>   
-
-     
     </View>
     
   );
