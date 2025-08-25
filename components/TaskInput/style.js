@@ -1,477 +1,377 @@
-import { StyleSheet, Dimensions } from "react-native";
-import { horizontalScale, verticalScale } from "../../Assest/style/scaling";
+// style.js - Comprehensive styles for TaskInput and TaskList components
+import { StyleSheet, Dimensions } from 'react-native';
 
 const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
-  // Main container with purple gradient background
+  // ===== TASK INPUT STYLES =====
   container: {
-    flex: 1,
-    backgroundColor: '#faf5ff', // Light purple background
-    paddingHorizontal: horizontalScale(20),
-    paddingTop: verticalScale(60),
-    paddingBottom: verticalScale(30),
-  },
-
-  // Priority Picker Container with floating effect
-  pickerContainer: {
-    backgroundColor: '#ffffff',
-    borderRadius: horizontalScale(20),
-    marginBottom: verticalScale(25),
-    shadowColor: '#3b82f6',
+    backgroundColor: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+    paddingHorizontal: 24,
+    paddingVertical: 28,
+    marginHorizontal: 16,
+    marginTop: 20,
+    borderRadius: 24,
+    shadowColor: '#667eea',
     shadowOffset: {
       width: 0,
-      height: verticalScale(8),
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: horizontalScale(15),
-    elevation: 12,
-    borderWidth: 2,
-    borderColor: '#e0f2fe',
-    // Gradient border effect
-    borderTopColor: '#bae6fd',
-    borderLeftColor: '#bae6fd',
-    borderRightColor: '#f0f9ff',
-    borderBottomColor: '#f0f9ff',
-  },
-
-  // Enhanced picker styling
-  picker: {
-    height: verticalScale(60),
-    marginHorizontal: horizontalScale(15),
-    color: '#1e40af',
-    fontSize: horizontalScale(16),
-    fontWeight: '600',
-  },
-
-  // Animated picker with glow
-  pickerGlow: {
-    shadowColor: '#60a5fa',
-    shadowOpacity: 0.4,
-    shadowRadius: horizontalScale(20),
-    elevation: 15,
-    transform: [{ scale: 1.02 }],
-  },
-
-  // Input container with morphing effects
-  inputContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#ffffff',
-    borderRadius: horizontalScale(25),
-    paddingHorizontal: horizontalScale(20),
-    paddingVertical: verticalScale(8),
-    marginBottom: verticalScale(30),
-    shadowColor: '#6366f1',
-    shadowOffset: {
-      width: 0,
-      height: verticalScale(6),
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: horizontalScale(12),
-    elevation: 10,
-    borderWidth: 2,
-    borderColor: '#e0e7ff',
-    // Multi-layer border for depth
-    borderTopColor: '#c7d2fe',
-    borderLeftColor: '#c7d2fe',
-    borderRightColor: '#f8fafc',
-    borderBottomColor: '#f8fafc',
-  },
-
-  // Focused input state
-  inputContainerFocused: {
-    borderColor: '#6366f1',
-    borderTopColor: '#8b5cf6',
-    borderLeftColor: '#8b5cf6',
-    shadowColor: '#8b5cf6',
-    shadowOpacity: 0.3,
-    shadowRadius: horizontalScale(16),
-    elevation: 15,
-    transform: [{ scale: 1.02 }],
-  },
-
-  // Text input with breathing animation
-  textInput: {
-    flex: 1,
-    fontSize: horizontalScale(16),
-    color: '#1e293b',
-    fontWeight: '500',
-    paddingVertical: verticalScale(15),
-    paddingRight: horizontalScale(15),
-    letterSpacing: 0.3,
-  },
-
-  // Placeholder with subtle animation
-  textInputPlaceholder: {
-    color: '#94a3b8',
-    fontStyle: 'italic',
-  },
-
-  // Perfect circular animated add button
-  addButton: {
-    backgroundColor: '#8b5cf6',
-    width: horizontalScale(56),
-    height: horizontalScale(56), // Make it perfectly square first
-    borderRadius: horizontalScale(28), // Half of width/height for perfect circle
-    justifyContent: 'center',
-    alignItems: 'center',
-    shadowColor: '#8b5cf6',
-    shadowOffset: {
-      width: 0,
-      height: verticalScale(6),
+      height: 12,
     },
     shadowOpacity: 0.4,
-    shadowRadius: horizontalScale(12),
-    elevation: 10,
-    // Remove gradient borders for clean circle
-    borderWidth: 0,
-  },
-
-  // Button press animation
-  addButtonPressed: {
-    backgroundColor: '#4f46e5',
-    transform: [{ scale: 0.9 }, { rotate: '180deg' }],
-    shadowOpacity: 0.6,
-    shadowRadius: horizontalScale(20),
+    shadowRadius: 20,
     elevation: 15,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.2)',
+    position: 'relative',
+    overflow: 'hidden',
   },
 
-  // Button hover/active state
-  addButtonActive: {
-    backgroundColor: '#7c3aed',
-    transform: [{ scale: 1.1 }, { rotate: '45deg' }],
-    shadowColor: '#a855f7',
-    shadowOpacity: 0.5,
-    shadowRadius: horizontalScale(25),
-    elevation: 18,
-  },
-
-  // Pulsing button effect
-  addButtonPulse: {
-    transform: [{ scale: 1.15 }],
-    shadowRadius: horizontalScale(30),
-    shadowOpacity: 0.7,
-  },
-
-  // Add button text with glow
-  addButtonText: {
-    color: '#ffffff',
-    fontSize: horizontalScale(24),
-    fontWeight: '700',
-    textShadowColor: 'rgba(139, 92, 246, 0.8)',
-    textShadowOffset: { width: 0, height: 2 },
-    textShadowRadius: 4,
-  },
-
-  // Rotating add button text
-  addButtonTextRotate: {
-    transform: [{ rotate: '90deg' }],
-  },
-
-  // Task list container
-  taskListContainer: {
-    flex: 1,
-    paddingTop: verticalScale(10),
-  },
-
-  // Individual task animation container
-  taskAnimationContainer: {
-    marginBottom: verticalScale(15),
-  },
-
-  // Slide in from left animation
-  slideInLeft: {
-    transform: [{ translateX: -width }],
-    opacity: 0,
-  },
-
-  slideInLeftActive: {
-    transform: [{ translateX: 0 }],
-    opacity: 1,
-  },
-
-  // Slide in from right animation  
-  slideInRight: {
-    transform: [{ translateX: width }],
-    opacity: 0,
-  },
-
-  slideInRightActive: {
-    transform: [{ translateX: 0 }],
-    opacity: 1,
-  },
-
-  // Bounce in animation
-  bounceIn: {
-    transform: [{ scale: 0 }],
-    opacity: 0,
-  },
-
-  bounceInActive: {
-    transform: [{ scale: 1 }],
-    opacity: 1,
-  },
-
-  // Flip animation
-  flipIn: {
-    transform: [{ rotateY: '90deg' }],
-    opacity: 0,
-  },
-
-  flipInActive: {
-    transform: [{ rotateY: '0deg' }],
-    opacity: 1,
-  },
-
-  // Zoom and spin animation
-  zoomSpin: {
-    transform: [{ scale: 0.1 }, { rotate: '360deg' }],
-    opacity: 0,
-  },
-
-  zoomSpinActive: {
-    transform: [{ scale: 1 }, { rotate: '0deg' }],
-    opacity: 1,
-  },
-
-  // Crazy matrix-style animation
-  matrixEffect: {
-    transform: [
-      { translateY: -height },
-      { rotateX: '180deg' },
-      { skewX: '45deg' }
-    ],
-    opacity: 0,
-  },
-
-  matrixEffectActive: {
-    transform: [
-      { translateY: 0 },
-      { rotateX: '0deg' },
-      { skewX: '0deg' }
-    ],
-    opacity: 1,
-  },
-
-  // Floating animation
-  floating: {
-    transform: [{ translateY: -5 }],
-  },
-
-  floatingDown: {
-    transform: [{ translateY: 5 }],
-  },
-
-  // Shake animation for errors/validation
-  shake: {
-    transform: [{ translateX: -10 }],
-  },
-
-  shakeRight: {
-    transform: [{ translateX: 10 }],
-  },
-
-  shakeUp: {
-    transform: [{ translateY: -5 }],
-  },
-
-  shakeDown: {
-    transform: [{ translateY: 5 }],
-  },
-
-  // Crazy wiggle animation
-  wiggle: {
-    transform: [{ rotate: '-3deg' }],
-  },
-
-  wiggleRight: {
-    transform: [{ rotate: '3deg' }],
-  },
-
-  // Pulse glow effects
-  pulseGlowSoft: {
-    shadowColor: '#60a5fa',
-    shadowOpacity: 0.6,
-    shadowRadius: horizontalScale(20),
-    elevation: 20,
-  },
-
-  pulseGlowIntense: {
-    shadowColor: '#8b5cf6',
-    shadowOpacity: 0.8,
-    shadowRadius: horizontalScale(30),
-    elevation: 25,
-  },
-
-  pulseGlowRainbow: {
-    shadowColor: '#f59e0b',
-    shadowOpacity: 0.7,
-    shadowRadius: horizontalScale(25),
-    elevation: 22,
-  },
-
-  // Morphing container effects
-  morphTiny: {
-    height: verticalScale(40),
-    borderRadius: horizontalScale(20),
-    padding: horizontalScale(10),
-  },
-
-  morphHuge: {
-    height: verticalScale(100),
-    borderRadius: horizontalScale(50),
-    padding: horizontalScale(30),
-  },
-
-  morphWide: {
-    width: '110%',
-    marginLeft: '-5%',
-  },
-
-  morphNarrow: {
-    width: '80%',
-    alignSelf: 'center',
-  },
-
-  // Ripple effect
-  ripple: {
-    position: 'absolute',
-    borderRadius: 1000,
-    backgroundColor: 'rgba(139, 92, 246, 0.3)',
-  },
-
-  // Particle explosion effect
-  particle: {
-    position: 'absolute',
-    width: horizontalScale(8),
-    height: verticalScale(8),
-    borderRadius: horizontalScale(4),
-    backgroundColor: '#a855f7',
-  },
-
-  // Crazy border animations
-  borderDance: {
-    borderColor: '#f59e0b',
-    borderWidth: 4,
-    borderStyle: 'dashed',
-  },
-
-  borderPulse: {
-    borderColor: '#10b981',
-    borderWidth: 6,
-    borderTopColor: '#06d6a0',
-    borderRightColor: '#118ab2',
-    borderBottomColor: '#073b4c',
-    borderLeftColor: '#ffd166',
-  },
-
-  borderRainbow: {
-    borderTopColor: '#ef4444',
-    borderRightColor: '#f59e0b',
-    borderBottomColor: '#10b981',
-    borderLeftColor: '#3b82f6',
-    borderWidth: 4,
-  },
-
-  // Screen-wide flash effect
-  flashOverlay: {
+  // Background gradient overlay
+  containerOverlay: {
     position: 'absolute',
     top: 0,
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(139, 92, 246, 0.3)',
-    opacity: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+    borderRadius: 24,
   },
 
-  flashOverlayActive: {
-    opacity: 1,
+  // Priority Picker Styles
+  picker: {
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: 16,
+    marginBottom: 20,
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 6,
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#2c3e50',
+    paddingHorizontal: 16,
+    minHeight: 56,
+    backdropFilter: 'blur(10px)',
   },
 
-  // Priority-based animations
-  priorityHighAnimation: {
-    shadowColor: '#ef4444',
-    shadowOpacity: 0.6,
-    shadowRadius: horizontalScale(15),
-    borderLeftColor: '#dc2626',
-    borderLeftWidth: horizontalScale(6),
+  // Input Container (TextInput + Button)
+  inputContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    borderRadius: 20,
+    paddingLeft: 20,
+    paddingRight: 4,
+    paddingVertical: 4,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 6,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 12,
+    elevation: 8,
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.4)',
+    backdropFilter: 'blur(15px)',
   },
 
-  priorityMediumAnimation: {
-    shadowColor: '#f59e0b',
-    shadowOpacity: 0.5,
-    shadowRadius: horizontalScale(12),
-    borderLeftColor: '#d97706',
-    borderLeftWidth: horizontalScale(4),
+  // Text Input Styles
+  textInput: {
+    flex: 1,
+    fontSize: 17,
+    fontWeight: '500',
+    color: '#2c3e50',
+    paddingVertical: 16,
+    paddingRight: 12,
+    letterSpacing: 0.3,
+    fontFamily: 'System',
   },
 
-  priorityLowAnimation: {
-    shadowColor: '#10b981',
+  // Add Button Styles
+  addButton: {
+    backgroundColor: '#ff6b6b',
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#ff6b6b',
+    shadowOffset: {
+      width: 0,
+      height: 6,
+    },
     shadowOpacity: 0.4,
-    shadowRadius: horizontalScale(10),
-    borderLeftColor: '#059669',
-    borderLeftWidth: horizontalScale(3),
+    shadowRadius: 12,
+    elevation: 8,
+    borderWidth: 2,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+    transform: [{ scale: 1 }],
   },
 
-  // Completion celebration effects
-  celebrationBurst: {
-    shadowColor: '#fbbf24',
-    shadowOpacity: 0.9,
-    shadowRadius: horizontalScale(40),
-    elevation: 30,
-    transform: [{ scale: 1.2 }],
+  addButtonText: {
+    color: '#ffffff',
+    fontSize: 24,
+    fontWeight: '700',
+    textAlign: 'center',
+    lineHeight: 28,
   },
 
-  celebrationSpin: {
-    transform: [{ rotate: '720deg' }, { scale: 1.1 }],
+  // ===== TASK LIST STYLES =====
+  listContainer: {
+    paddingHorizontal: 16,
+    paddingTop: 12,
+    paddingBottom: 100, // Space for floating input
+    flexGrow: 1,
   },
 
-  celebrationBounce: {
-    transform: [{ translateY: -20 }, { scale: 1.15 }],
-  },
-
-  // Loading/processing states
-  processingPulse: {
-    opacity: 0.5,
-    transform: [{ scale: 0.95 }],
-  },
-
-  processingGlow: {
-    shadowColor: '#6366f1',
-    shadowOpacity: 0.8,
-    shadowRadius: horizontalScale(25),
-    elevation: 20,
-  },
-
-  // Responsive tablet animations
-  tabletContainer: {
-    paddingHorizontal: horizontalScale(40),
-  },
-
-  tabletInputContainer: {
-    paddingHorizontal: horizontalScale(30),
-    borderRadius: horizontalScale(35),
-  },
-
-  tabletAddButton: {
-    width: horizontalScale(60),
-    height: verticalScale(60),
-    borderRadius: horizontalScale(30),
-  },
-
-  // Dark theme animations
-  darkThemeGlow: {
-    shadowColor: '#a78bfa',
-    backgroundColor: '#1f2937',
-    borderColor: '#4c1d95',
-  },
-
-  // Light theme animations  
-  lightThemeGlow: {
-    shadowColor: '#6366f1',
+  // Individual Task Item Container
+  taskItem: {
     backgroundColor: '#ffffff',
-    borderColor: '#e0e7ff',
+    marginVertical: 6,
+    marginHorizontal: 4,
+    borderRadius: 18,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.12,
+    shadowRadius: 8,
+    elevation: 5,
+    borderWidth: 1,
+    borderColor: 'rgba(0, 0, 0, 0.06)',
+    overflow: 'hidden',
+    transform: [{ scale: 1 }],
+  },
+
+  // Task Item Content
+  taskContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingVertical: 18,
+    minHeight: 72,
+  },
+
+  // Task Text Container
+  taskTextContainer: {
+    flex: 1,
+    marginRight: 16,
+  },
+
+  taskText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#2c3e50',
+    lineHeight: 22,
+    letterSpacing: 0.2,
+  },
+
+  taskTextDone: {
+    textDecorationLine: 'line-through',
+    color: '#95a5a6',
+    opacity: 0.7,
+  },
+
+  // Priority Badge Styles
+  priorityBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 12,
+    marginTop: 8,
+    alignSelf: 'flex-start',
+    minWidth: 60,
+    alignItems: 'center',
+  },
+
+  priorityHigh: {
+    backgroundColor: 'rgba(231, 76, 60, 0.15)',
+    borderWidth: 1,
+    borderColor: 'rgba(231, 76, 60, 0.3)',
+  },
+
+  priorityMedium: {
+    backgroundColor: 'rgba(243, 156, 18, 0.15)',
+    borderWidth: 1,
+    borderColor: 'rgba(243, 156, 18, 0.3)',
+  },
+
+  priorityLow: {
+    backgroundColor: 'rgba(39, 174, 96, 0.15)',
+    borderWidth: 1,
+    borderColor: 'rgba(39, 174, 96, 0.3)',
+  },
+
+  priorityText: {
+    fontSize: 12,
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+
+  priorityTextHigh: {
+    color: '#e74c3c',
+  },
+
+  priorityTextMedium: {
+    color: '#f39c12',
+  },
+
+  priorityTextLow: {
+    color: '#27ae60',
+  },
+
+  // Action Buttons Container
+  taskActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+
+  // Checkbox/Toggle Button
+  checkButton: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    borderWidth: 2,
+    borderColor: '#3498db',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'transparent',
+  },
+
+  checkButtonDone: {
+    backgroundColor: '#3498db',
+    borderColor: '#3498db',
+  },
+
+  checkMark: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '700',
+  },
+
+  // Delete Button
+  deleteButton: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(231, 76, 60, 0.2)',
+  },
+
+  deleteButtonText: {
+    color: '#e74c3c',
+    fontSize: 16,
+    fontWeight: '700',
+  },
+
+  // ===== ENHANCED INTERACTIVE STYLES =====
+  
+  // Pressed States
+  addButtonPressed: {
+    transform: [{ scale: 0.95 }],
+    backgroundColor: '#ff5252',
+  },
+
+  taskItemPressed: {
+    transform: [{ scale: 0.98 }],
+    shadowOpacity: 0.2,
+  },
+
+  checkButtonPressed: {
+    transform: [{ scale: 0.9 }],
+  },
+
+  deleteButtonPressed: {
+    backgroundColor: 'rgba(231, 76, 60, 0.2)',
+    transform: [{ scale: 0.9 }],
+  },
+
+  // ===== EMPTY STATE STYLES =====
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 40,
+    paddingTop: 100,
+  },
+
+  emptyText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#7f8c8d',
+    textAlign: 'center',
+    marginBottom: 12,
+  },
+
+  emptySubtext: {
+    fontSize: 14,
+    color: '#95a5a6',
+    textAlign: 'center',
+    lineHeight: 20,
+  },
+
+  // ===== ANIMATION HELPERS =====
+  fadeIn: {
+    opacity: 1,
+    transform: [{ translateY: 0 }],
+  },
+
+  fadeOut: {
+    opacity: 0,
+    transform: [{ translateY: -20 }],
+  },
+
+  // ===== RESPONSIVE STYLES =====
+  containerTablet: {
+    maxWidth: 600,
+    alignSelf: 'center',
+    marginHorizontal: 24,
+  },
+
+  listContainerTablet: {
+    paddingHorizontal: 24,
+  },
+
+  // ===== ACCESSIBILITY STYLES =====
+  accessibleButton: {
+    minHeight: 44,
+    minWidth: 44,
+  },
+
+  accessibleText: {
+    fontSize: 16,
+    lineHeight: 24,
+  },
+
+  // ===== DARK THEME VARIANTS =====
+  containerDark: {
+    backgroundColor: '#2c3e50',
+    borderColor: 'rgba(255, 255, 255, 0.1)',
+  },
+
+  taskItemDark: {
+    backgroundColor: '#34495e',
+    borderColor: 'rgba(255, 255, 255, 0.1)',
+  },
+
+  taskTextDark: {
+    color: '#ecf0f1',
+  },
+
+  textInputDark: {
+    color: '#ecf0f1',
   },
 });
 
