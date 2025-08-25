@@ -1,3 +1,4 @@
-export const Routes ={
-    Home:'Home',
-}
+export const Routes = {
+  Home: "Home",
+  ArtificialIntelligence: "ArtificialIntelligence",
+};

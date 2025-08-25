@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
-import { View, Text } from "react-native";
+import { View, Text, Animated } from "react-native";
 import style from "./style";
 
-const Header = (props) => {
+const Header = ({ title, type, color }) => {
+  const fadeAnim = useRef(new Animated.Value(0)).current; // Fade animation
+
+  // Decide which text style to use based on type
   const StyleToApply = () => {
-    switch (props.type) {
+    switch (type) {
       case 1:
         return style.title1;
       case 2:
@@ -17,19 +20,42 @@ const Header = (props) => {
     }
   };
 
+  useEffect(() => {
+    Animated.timing(fadeAnim, {
+      toValue: 1,        // Fade in to fully visible
+      duration: 800,     // 0.8 seconds
+      useNativeDriver: true,
+    }).start();
+  }, []);
+
   return (
-    <View>
-      <Text style={[StyleToApply(), { color: props.color }]}>
-        {props.title}
+    <Animated.View
+      style={{
+        opacity: fadeAnim,
+        backgroundColor: "#D8B4FE", // Light purple background
+        paddingVertical: 20,
+        paddingHorizontal: 25,
+        borderRadius: 12,
+        alignItems: "center",
+        justifyContent: "center",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
+        elevation: 5, // Android shadow
+      }}
+    >
+      <Text style={[StyleToApply(), { color }]}>
+        {title}
       </Text>
-    </View>
+    </Animated.View>
   );
 };
 
 Header.defaultProps = {
   title: "",
   type: 1,
-  color: "#000000",
+  color: "#4B0082", // Default dark purple
 };
 
 Header.propTypes = {
