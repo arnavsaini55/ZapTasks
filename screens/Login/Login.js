@@ -1,50 +1,4 @@
-// import React, { useState } from "react";      
-// import { View, Text, TouchableOpacity } from "react-native"; 
-// import style from "./Style"; 
-// import { useNavigation } from "@react-navigation/native";
-// import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-// import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-// import { Routes } from "../../navigation/Routes";
 
-// const Login = () => {
-//   const navigation = useNavigation();
-//   const [isDarkMode, setIsDarkMode] = useState(false);
-
-//   const toggleTheme = () => setIsDarkMode(!isDarkMode);
-
-//   return (
-//     <View style={[style.container, { backgroundColor: isDarkMode ? "#000" : "#fff" }]}>
-//       {/* Top-right buttons container */}
-//       <View style={style.topRightContainer}>
-//         {/* Dark mode toggle */}
-//         <TouchableOpacity onPress={toggleTheme} style={{ marginRight: 10 }}>
-//           <FontAwesomeIcon
-//             icon={isDarkMode ? faSun : faMoon}
-//             size={24}
-//             color={isDarkMode ? "#FFD700" : "#4B0082"}
-//           />
-//         </TouchableOpacity>
-
-//         {/* Sign Up button */}
-//         <TouchableOpacity
-//           style={style.topRightButton}
-//           onPress={() => navigation.navigate("Registration")}
-//         >
-//           <Text style={style.topRightButtonText}>Sign Up</Text>
-//         </TouchableOpacity>
-//       </View>
-
-//       {/* Centered login text */}
-//       <View style={style.loginTextContainer}>
-//         <Text style={[style.loginText, { color: isDarkMode ? "#fff" : "#000" }]}>
-//           Welcome to the Login Screen!
-//         </Text>
-//       </View>
-//     </View>
-//   );
-// };
-
-// export default Login;
 import React, { useState } from "react";
 import { View, Text, TextInput, TouchableOpacity } from "react-native";
 import style from "./Style";
@@ -75,7 +29,7 @@ const Login = () => {
   return (
     <View style={[style.container, { backgroundColor: isDarkMode ? "#000" : "#fff" }]}>
       
-      {/* Top-right Dark Mode toggle */}
+    
       <View style={style.topRightToggle}>
         <TouchableOpacity onPress={toggleTheme}>
           <FontAwesomeIcon
@@ -89,7 +43,7 @@ const Login = () => {
       {/* Welcome Text */}
       <View style={style.centerContainer}>
         <Text style={[style.welcomeText, { color: isDarkMode ? "#fff" : "#000" }]}>
-          Welcome Back!
+          Welcome Back!  🚀
         </Text>
 
         {/* TextInputs */}
@@ -112,7 +66,7 @@ const Login = () => {
         {error ? <Text style={style.errorText}>{error}</Text> : null}
 
         <TouchableOpacity style={style.loginButton} onPress={handleLogin}>
-          <Text style={style.loginButtonText}>Login</Text>
+          <Text style={style.loginButtonText}>Login  </Text>
         </TouchableOpacity>
       </View>
 
