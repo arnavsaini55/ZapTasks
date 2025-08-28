@@ -21,7 +21,7 @@ const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   const animRefs = useRef({});
 
-  // ✅ user-specific collection
+  
   const tasksCollection = collection(db, "users", auth.currentUser.uid, "tasks");
 
   useEffect(() => {
